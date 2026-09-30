@@ -1,0 +1,13 @@
+{
+  "name": "ow-theory-index",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render": "node content/render.mjs",
+    "check": "node --check dist/app.js"
+  },
+  "dependencies": {
+    "marked": "17.0.5"
+  }
+}
