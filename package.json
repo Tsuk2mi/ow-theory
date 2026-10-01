@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "render": "node content/render.mjs",
-    "check": "node --check dist/app.js"
+    "check": "node --check app.js && node --check content/render.mjs"
   },
   "dependencies": {
     "marked": "17.0.5"
